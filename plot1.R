@@ -1,5 +1,5 @@
 library("data.table")
-setwd("C://Users//pg000//Desktop")
+
 Consum  <- data.table::fread(input = "household_power_consumption.txt", 
                              na.strings ="?"
 )
